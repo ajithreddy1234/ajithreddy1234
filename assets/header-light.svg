@@ -1,33 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="225" viewBox="0 0 1024 225" role="img" aria-labelledby="title">
   <title id="title">Ajith Reddy · Civil Engineering, IIT Hyderabad</title>
   <defs>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#c6d9d3" stroke-width="1"/>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" fill="none" stroke="#c8d8ec" stroke-width="1"/>
     </pattern>
-    <linearGradient id="fade">
-      <stop stop-color="#edf6f2" stop-opacity="0"/>
-      <stop offset="1" stop-color="#d5eee5"/>
+    <linearGradient id="wash">
+      <stop stop-color="#edf4fc"/>
+      <stop offset="1" stop-color="#d9e8fc"/>
     </linearGradient>
-    <clipPath id="edge"><rect x="1" y="1" width="998" height="258" rx="23"/></clipPath>
+    <clipPath id="frame"><rect x="1" y="1" width="1022" height="223" rx="19"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="998" height="258" rx="23" fill="#edf6f2" stroke="#b1cbc3" stroke-width="2"/>
-  <g clip-path="url(#edge)">
-    <path d="M580 1H1000V260H580Z" fill="url(#fade)"/>
-    <path d="M604 0H1000V260H604Z" fill="url(#grid)" opacity=".7"/>
+  <rect x="1" y="1" width="1022" height="223" rx="19" fill="#edf4fc" stroke="#bacce2" stroke-width="2"/>
+  <g clip-path="url(#frame)">
+    <path d="M542 1h482v224H542z" fill="url(#wash)"/>
+    <path d="M599 0h425v225H599z" fill="url(#grid)"/>
   </g>
-  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
-    <text x="47" y="132" font-size="83" font-weight="740" letter-spacing="-3" fill="#123431">Ajith Reddy</text>
-    <text x="51" y="183" font-size="30" font-weight="600" letter-spacing=".35" fill="#2d635c">Civil Engineering · IIT Hyderabad</text>
+  <path d="M48 50h33" stroke="#a75419" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="43" y="130" fill="#142c49" font-size="82" font-weight="750" letter-spacing="-3.5">Ajith Reddy</text>
+    <text x="48" y="177" fill="#38597e" font-size="30" font-weight="560">Civil Engineering · IIT Hyderabad</text>
   </g>
-  <g fill="none" stroke="#57988b" stroke-width="2.5" stroke-linejoin="round">
-    <path d="m626 189 47-102 89-27 53 80 66-58 64 91-99 44-113-25-107-3 189-49 130 33M673 87l60 105 29-132m119 22-35 135-31-77"/>
-    <circle cx="815" cy="140" r="27" stroke="#91bbb0"/>
+  <g fill="none" stroke="#7096c9" stroke-width="2.4" stroke-linejoin="round">
+    <path d="m630 147 56-95 106 26 68-43 88 41 25 75-106 43-82-30-86 22-69-39 162-69 156-2m-262-24 13 134 93-108 75 116 81-118m-249 110 86-22 75-129m7 159 106-43"/>
+    <circle cx="792" cy="78" r="20"/>
+    <circle cx="867" cy="194" r="17"/>
   </g>
-  <g fill="#edf6f2" stroke="#2b7466" stroke-width="3">
-    <circle cx="626" cy="189" r="7"/><circle cx="673" cy="87" r="8"/>
-    <circle cx="762" cy="60" r="7"/><circle cx="733" cy="192" r="8"/>
-    <circle cx="881" cy="82" r="7"/><circle cx="945" cy="173" r="8"/>
-    <circle cx="846" cy="217" r="7"/>
-    <circle cx="815" cy="140" r="11" fill="#2b7466"/>
+  <path d="m630 147 162-69 156-2 25 75" fill="none" stroke="#2e63ad" stroke-width="4" stroke-linecap="round"/>
+  <path d="m699 186 86-22 82 30" fill="none" stroke="#a75419" stroke-width="3" stroke-dasharray="5 7" stroke-linecap="round"/>
+  <g fill="#edf4fc" stroke="#2e63ad" stroke-width="2.8">
+    <circle cx="630" cy="147" r="7"/><circle cx="686" cy="52" r="6"/><circle cx="792" cy="78" r="9" fill="#2e63ad"/>
+    <circle cx="860" cy="35" r="6"/><circle cx="948" cy="76" r="7"/><circle cx="973" cy="151" r="7"/>
+    <circle cx="699" cy="186" r="6" stroke="#a75419"/><circle cx="785" cy="164" r="6" stroke="#a75419"/>
+    <circle cx="867" cy="194" r="6" stroke="#a75419"/>
   </g>
 </svg>

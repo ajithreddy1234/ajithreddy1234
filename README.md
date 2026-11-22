@@ -5,68 +5,42 @@
   </picture>
 </h1>
 
-**I build machine learning systems for infrastructure reliability and document workflows.**
+**I build machine learning systems for infrastructure reliability and software for document review.**
 
-I study Civil Engineering at IIT Hyderabad. My current research explores whether graph neural networks trained on one infrastructure network can estimate earthquake-related failure risk on another.
+I’m a Civil Engineering student at IIT Hyderabad. My research uses graph learning to study how earthquakes affect infrastructure networks.
 
-## Featured projects
+[Selected work](#selected-work) · [Seismic research](#seismic-reliability) · [Portfolio website](https://ajith-reddy-frontend.netlify.app/)
 
-### [FlowForge · Visual ETL and scheduling](https://github.com/ajithreddy1234/FlowForge-ETL-Workflow-Automation-with-SQL-Assistant)
+## Selected work
 
-Build and schedule database-to-spreadsheet pipelines on a visual canvas. Includes versioned workflows, run logs, and a SQL assistant grounded in the database schema.
+**[FlowForge](https://github.com/ajithreddy1234/FlowForge-ETL-Workflow-Automation-with-SQL-Assistant)** · A visual database-to-spreadsheet pipeline editor. Scheduled jobs run the saved workflow version they were assigned.  
+FastAPI, React Flow, Pandas, APScheduler · [Try the sandbox](https://ajith-flowforge-scheduler.onrender.com/)
 
-**Stack** · FastAPI, React Flow, Pandas, APScheduler, Docker · [Live sandbox](https://ajith-flowforge-scheduler.onrender.com/)
+**[Invoice Exception Review](https://github.com/ajithreddy1234/Invoice-Exception-Review-and-Approval-Workflow)** · Turn invoice PDFs into purchase-order decisions. The workflow tracks partial billing against the same PO and routes ambiguous or unreadable invoices to a reviewer.  
+FastAPI, React, Supabase, Gemini, Tesseract · [Hosted app (reviewer sign-in)](https://asa-invoice-review.onrender.com/)
 
-### [Invoice Exception Review](https://github.com/ajithreddy1234/Invoice-Exception-Review-and-Approval-Workflow)
+**[Irrigation Demand and Reservoir Allocation](https://github.com/ajithreddy1234/demo-repo/tree/main/Irrigation-Water-Demand-ML)** · Forecast daily maize irrigation demand and use linear programming to plan releases within seasonal water and daily capacity constraints.  
+Python, XGBoost
 
-Turns invoice PDFs into purchase-order decisions with a review queue for ambiguous or unreadable documents. Tracks partial billing and blocks duplicate commitments.
+**[Promo Finder](https://github.com/ajithreddy1234/kuku-promo-finder)** · Generate an edit shortlist from timed screenplays. Code checks timestamps and scene boundaries before models assess the clips.  
+Python, FastAPI, React, Groq
 
-**Stack** · FastAPI, React, Supabase, Gemini, Tesseract · [Hosted app, reviewer sign-in](https://asa-invoice-review.onrender.com/)
+**[Frontend Portfolio and Storefront](https://github.com/ajithreddy1234/ajith-frontend-portfolio)** · A portfolio assistant that answers from project sources, with a storefront that commits checkout changes in a database transaction.  
+React, Vite, Netlify Functions, Gemini, PostgreSQL · [View the project directory](https://ajith-reddy-frontend.netlify.app/projects.html)
 
-### [Irrigation Demand and Reservoir Allocation](https://github.com/ajithreddy1234/demo-repo/tree/main/Irrigation-Water-Demand-ML)
-
-Forecasts daily maize irrigation demand, then creates a release schedule subject to reservoir supply and daily capacity limits.
-
-**Stack** · Python, XGBoost, linear programming
-
-### [Promo Finder · Screenplay to edit shortlist](https://github.com/ajithreddy1234/kuku-promo-finder)
-
-Proposes short clips from timed screenplays. Deterministic checks validate timestamps and scene boundaries before model-assisted review and ranking.
-
-**Stack** · Python, FastAPI, React, Groq
-
-### [Frontend Portfolio and Storefront](https://github.com/ajithreddy1234/ajith-frontend-portfolio)
-
-Combines a project directory and a source-grounded assistant with a storefront that uses transactional checkout.
-
-**Stack** · React, Vite, Netlify Functions, Gemini, PostgreSQL · [Live portfolio](https://ajith-reddy-frontend.netlify.app/)
+## Seismic reliability
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <img src="assets/divider-light.svg" width="100%" alt="">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/research-dark.svg">
+  <img src="assets/research-light.svg" width="100%" alt="Research workflow. Simulate network failures, train a graph surrogate, then test it on a new network.">
 </picture>
 
-## Research · Seismic reliability
-
-I represent infrastructure as a graph and use Monte Carlo simulations to estimate the probability that earthquake damage disconnects parts of it. I compare GraphSAGE and graph attention surrogates, then test how well they transfer to a new network. The aim is to make it faster to screen network layouts and identify where detailed simulation is worth the cost.
-
-<details>
-<summary>Research workflow</summary>
-
-```mermaid
-flowchart LR
-    A[Simulate network failures] --> B[Train graph surrogate]
-    B --> C[Test on a new network]
-```
-
-</details>
+An earthquake can disconnect a network even when most of its links survive. I use Monte Carlo simulations to estimate that disconnection risk, then compare GraphSAGE and graph attention models trained on those estimates. I test how well the models transfer to a different network. The aim is to screen more layouts before running detailed simulations.
 
 ## Technical toolkit
 
-- <img src="assets/learning.svg" width="16" height="16" alt=""> **ML and deep learning** · PyTorch, scikit-learn, XGBoost · **Graph learning** · PyTorch Geometric, GraphSAGE, GAT
+- <img src="assets/learning.svg" width="16" height="16" alt=""> **ML and graph learning** · PyTorch, PyTorch Geometric, scikit-learn, XGBoost
 - <img src="assets/documents.svg" width="16" height="16" alt=""> **NLP and document AI** · Sentence Transformers, FAISS, Gemini, Tesseract
-- <img src="assets/systems.svg" width="16" height="16" alt=""> **Backend** · FastAPI · **Frontend** · React, Vite · **Data** · PostgreSQL, Pandas · **Tooling** · Docker, pytest, GitHub Actions
+- <img src="assets/systems.svg" width="16" height="16" alt=""> **Software and data** · FastAPI, React, PostgreSQL, Pandas, Docker, pytest, GitHub Actions
 
-## Find me
-
-[Portfolio and project directory](https://ajith-reddy-frontend.netlify.app/projects.html) · [GitHub repositories](https://github.com/ajithreddy1234?tab=repositories)
+[All GitHub repositories](https://github.com/ajithreddy1234?tab=repositories)
