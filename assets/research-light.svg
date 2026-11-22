@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="170" viewBox="0 0 1024 170" role="img" aria-labelledby="title">
+  <title id="title">Simulate network failures, train a graph surrogate, and test on a new network</title>
+  <g fill="#f3f7fc" stroke="#bacce2" stroke-width="2">
+    <rect x="1" y="1" width="310" height="168" rx="15"/><rect x="357" y="1" width="310" height="168" rx="15"/>
+    <rect x="713" y="1" width="310" height="168" rx="15"/>
+  </g>
+  <g fill="none" stroke="#7096c9" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M324 85h19m-7-7 7 7-7 7m344-7h19m-7-7 7 7-7 7"/>
+    <path d="m118 84 16-45 40 8 21 37-35-12-42 12 56-37m-40-8 26 33"/>
+    <path d="m476 45 36 29 36-29m-36 29v16m-36-45h72"/>
+    <path d="m827 81 18-42 46-3 17 40-37 15-44-10 64-45m-46 3 26 52"/>
+  </g>
+  <path d="m173 47 22 37M868 90l40-14" fill="none" stroke="#a75419" stroke-width="3" stroke-dasharray="5 5"/>
+  <g fill="#f3f7fc" stroke="#2e63ad" stroke-width="2.6">
+    <circle cx="118" cy="84" r="5.5"/><circle cx="134" cy="39" r="5.5"/><circle cx="174" cy="47" r="6"/><circle cx="160" cy="72" r="5.5"/><circle cx="195" cy="84" r="5.5"/>
+    <circle cx="476" cy="45" r="6"/><circle cx="548" cy="45" r="6"/><circle cx="512" cy="74" r="8" fill="#2e63ad"/><circle cx="512" cy="90" r="5"/>
+    <circle cx="827" cy="81" r="5.5"/><circle cx="845" cy="39" r="5.5"/><circle cx="891" cy="36" r="6"/><circle cx="908" cy="76" r="5.5"/><circle cx="871" cy="91" r="5.5"/>
+  </g>
+  <g fill="#142c49" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="670" font-size="40">
+    <text x="156" y="139">Simulate</text><text x="512" y="139">Train</text><text x="868" y="139">Transfer</text>
+  </g>
+</svg>
