@@ -1,36 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="225" viewBox="0 0 1024 225" role="img" aria-labelledby="title">
-  <title id="title">Ajith Reddy · Civil Engineering, IIT Hyderabad</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="202" viewBox="0 0 1024 202" role="img" aria-labelledby="title">
+  <title id="title">Ajith Reddy · Applied ML and Software Engineering</title>
   <defs>
-    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
-      <path d="M22 0H0V22" fill="none" stroke="#c8d8ec" stroke-width="1"/>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#ccdcef"/>
     </pattern>
-    <linearGradient id="wash">
-      <stop stop-color="#edf4fc"/>
-      <stop offset="1" stop-color="#d9e8fc"/>
-    </linearGradient>
-    <clipPath id="frame"><rect x="1" y="1" width="1022" height="223" rx="19"/></clipPath>
+    <clipPath id="frame"><rect x="1" y="1" width="1022" height="200" rx="19"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="1022" height="223" rx="19" fill="#edf4fc" stroke="#bacce2" stroke-width="2"/>
+  <rect x="1" y="1" width="1022" height="200" rx="19" fill="#eef5fc" stroke="#c2d4e7" stroke-width="2"/>
   <g clip-path="url(#frame)">
-    <path d="M542 1h482v224H542z" fill="url(#wash)"/>
-    <path d="M599 0h425v225H599z" fill="url(#grid)"/>
+    <path d="M578 0h446v202H578z" fill="url(#grid)"/>
+    <path d="M578 0v202" stroke="#c2d4e7" opacity=".72"/>
   </g>
-  <path d="M48 50h33" stroke="#a75419" stroke-width="4" stroke-linecap="round"/>
+  <path d="M47 37h34" stroke="#137365" stroke-width="4" stroke-linecap="round"/>
   <g font-family="system-ui, sans-serif">
-    <text x="43" y="130" fill="#142c49" font-size="82" font-weight="750" letter-spacing="-3.5">Ajith Reddy</text>
-    <text x="48" y="177" fill="#38597e" font-size="30" font-weight="560">Civil Engineering · IIT Hyderabad</text>
+    <text x="43" y="113" fill="#102b45" font-size="81" font-weight="760" letter-spacing="-3">Ajith Reddy</text>
+    <text x="48" y="159" fill="#365978" font-size="30" font-weight="560">Applied ML · Software Engineering</text>
   </g>
-  <g fill="none" stroke="#7096c9" stroke-width="2.4" stroke-linejoin="round">
-    <path d="m630 147 56-95 106 26 68-43 88 41 25 75-106 43-82-30-86 22-69-39 162-69 156-2m-262-24 13 134 93-108 75 116 81-118m-249 110 86-22 75-129m7 159 106-43"/>
-    <circle cx="792" cy="78" r="20"/>
-    <circle cx="867" cy="194" r="17"/>
+  <g fill="#e4effb" stroke="#a2bcd8" stroke-width="2">
+    <rect x="623" y="58" width="116" height="84" rx="10"/>
+    <rect x="771" y="58" width="92" height="84" rx="10"/>
+    <rect x="899" y="38" width="73" height="49" rx="9"/>
+    <rect x="899" y="114" width="73" height="49" rx="9"/>
   </g>
-  <path d="m630 147 162-69 156-2 25 75" fill="none" stroke="#2e63ad" stroke-width="4" stroke-linecap="round"/>
-  <path d="m699 186 86-22 82 30" fill="none" stroke="#a75419" stroke-width="3" stroke-dasharray="5 7" stroke-linecap="round"/>
-  <g fill="#edf4fc" stroke="#2e63ad" stroke-width="2.8">
-    <circle cx="630" cy="147" r="7"/><circle cx="686" cy="52" r="6"/><circle cx="792" cy="78" r="9" fill="#2e63ad"/>
-    <circle cx="860" cy="35" r="6"/><circle cx="948" cy="76" r="7"/><circle cx="973" cy="151" r="7"/>
-    <circle cx="699" cy="186" r="6" stroke="#a75419"/><circle cx="785" cy="164" r="6" stroke="#a75419"/>
-    <circle cx="867" cy="194" r="6" stroke="#a75419"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m644 89 9 9-9 9m18 0h11" stroke="#137365" stroke-width="3.5"/>
+    <path d="M687 90h33m-33 12h27m-27 12h17" stroke="#7394b2" stroke-width="2.6"/>
+    <path d="M739 100h32m92 0h18v-38h18m-18 38v39h18" stroke="#2e65ad" stroke-width="2.5"/>
+    <path d="m794 87 20 14 24-18m-24 18 23 18" stroke="#2e65ad" stroke-width="2.6"/>
+    <path d="m924 63 8 7 15-17" stroke="#137365" stroke-width="3.5"/>
+    <path d="M921 133h28m-28 11h18" stroke="#7394b2" stroke-width="2.7"/>
+  </g>
+  <g fill="#e4effb" stroke="#2e65ad" stroke-width="2.5">
+    <circle cx="794" cy="87" r="4.5"/><circle cx="837" cy="119" r="4.5"/><circle cx="838" cy="83" r="4.5"/>
+    <circle cx="814" cy="101" r="6" fill="#2e65ad"/><circle cx="881" cy="100" r="3.8" fill="#2e65ad"/>
   </g>
 </svg>
